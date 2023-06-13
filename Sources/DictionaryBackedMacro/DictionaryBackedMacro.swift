@@ -1,5 +1,5 @@
 /// ``DictionaryBacked`` expands a struct to use internal dictionary storage to
-/// back the declared members.
+/// back the declared members and adds a public intializer.
 ///
 /// This macro also conforms the struct type to ``DictionaryBackedType``
 /// providing a JSON String dumping method:

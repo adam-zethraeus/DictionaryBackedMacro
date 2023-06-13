@@ -46,7 +46,7 @@ final class DictionaryBackedMacroTests: XCTestCase {
                     _storage["z"] = newValue
                   }
               }
-              init(x: Int, y: Bool, z: String) {
+              public init(x: Int, y: Bool, z: String) {
                   _storage["x"] = x
                   _storage["y"] = y
                   _storage["z"] = z

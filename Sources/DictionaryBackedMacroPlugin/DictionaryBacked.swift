@@ -77,7 +77,7 @@ extension DictionaryBacked: MemberMacro {
 
   public static func generateInitialCode(variablesName: [PatternSyntax],
                                           variablesType: [TypeSyntax]) -> PartialSyntaxNodeString {
-      var initialCode: String = "init("
+      var initialCode: String = "public init("
       for (name, type) in zip(variablesName, variablesType) {
           initialCode += "\(name): \(type), "
       }
